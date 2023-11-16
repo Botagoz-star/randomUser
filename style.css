@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #343d46 50%, #c0c5ce 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .dataOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div[role=button] {
+    cursor: pointer;
+  }
+  .imgCard {
+    width: 100px;
+    height: 100px;
+  }
